@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main">
+    <div class="calculator">
+        <div id="result">
+            <div><input id="history" type="text" id=input></div>
+            <div id ="ans"></div>
+        </div>
+            <div class="black">
+                <button class="button" onclick="backspace()"><strong>CE</strong></button>
+                <button class="button" onclick="getclear()" id="clear"><strong>C</strong></button>
+                <button class="button" onclick="getnumber('%')" id="%" ><strong>%</strong></button>
+                <button class="button"  onclick="getnumber('+')" id="+"><strong>+</strong></button>
+                <button class="button" onclick="getnumber('&#8730')" id="&#8730"><strong>&#8730</strong></button>
+                <button class="button" onclick="getnumber('0')" id="0"><strong>0</strong></button>
+                <button class="button" onclick="getnumber('1')" id="1"><strong>1</strong></button>
+                <button class="button" onclick="getnumber('-')"  id="-"><strong>-</strong></button>
+                <button class="button" onclick="getnumber('2')" id="2"><strong>2</strong></button>
+                <button class="button"  onclick="getnumber('3')" id="3"><strong>3</strong></button>
+                <button class="button" onclick="getnumber('4')"  id="4"><strong>4</strong></button>
+                <button class="button" onclick="getnumber('&#215')"  id="&#215"><strong>&#215</strong></button>
+                <button class="button" onclick="getnumber('5')"  id="5"><strong>5</strong></button>
+                <button class="button"  onclick="getnumber('6')" id="6"><strong>6</strong></button>
+                <button class="button" onclick="getnumber('7')"  id="7"><strong>7</strong></button>
+                <button class="button" onclick="getnumber('&#xf7')"  id="&#xf7"><strong>&#xf7</strong></button>
+                <button class="button" onclick="getnumber('8')" id="8"><strong>8</strong></button>
+                <button class="button" onclick="getnumber('9')"  id="9"><strong>9</strong></button>
+                <button class="button" onclick="getnumber('.')" id="."><strong>.</strong></button>
+                <button class="button" onclick="operation()" id="="><strong>=</strong></button>
+            </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
